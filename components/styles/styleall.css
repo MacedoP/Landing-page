@@ -7,3 +7,75 @@
     font-family: "Shrikhand", serif;
     font-family: "Palanquin", sans-serif;
 }
+:root{
+    --var-header-color:#f9c101;
+    --var-text-color:#dfecf4;
+}
+header{
+    background-color: var(--var-header-color);
+    padding: 10px;
+    
+}
+h2{
+    font-family: "Shrikhand", serif;
+    margin-left: 10px;
+
+}
+/*Configuracao do icon do sol*/
+#icon-sun{
+    font-size: 40px;
+}
+.logo{
+    display: flex;
+}
+/*Configuracao dos meus links*/
+.nav-bar-links{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-bar-links li{
+    margin: 0 20px;
+}
+.nav-bar-links li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Palanquin", sans-serif;
+    font-weight: 700;
+}
+.nav-list-link{
+    display: flex;
+}
+@media (max-width: 650px){
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        width: 650px;
+    }
+    .logo{
+        width: 100vw;
+    }
+    h2{
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+    }
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-bar-links li a{
+        display: none;
+        text-decoration: none;
+        color: black;
+        font-family: "Palanquin", sans-serif;
+        font-weight: 700;
+    }
+    
+}
