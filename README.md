@@ -8,3 +8,4 @@
  # font-family: "Palanquin", sans-serif; fonte usado nos links e tesxtos abaixo
 
  # <i class='bx bxs-sun'></i> é a classe do ícone de sol,
+ # #B37406
